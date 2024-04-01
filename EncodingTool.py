@@ -82,7 +82,7 @@ def GetRangeAsList(ws, rng, o_type="value"):
             else:
                 line.append(ws.Cells(row,col).text)
         lines.append(line)
-    return lines  
+    return lines 
 
 star_text1 = ["*"]
 star_text2 = ["*"]

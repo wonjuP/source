@@ -159,7 +159,7 @@ window.geometry('800x500')
 #window.attributes("-alpha", 1.0) #transparent
 #offset_y = int(window.geometry().rsplit('+', 1)[-1])
 #bar_height = window.winfo_rooty() - offset_y+5
-window.iconbitmap(r'C:\RPA\역발행세금계산서발행\a.기준정보\ba.ico')
+window.iconbitmap(r'icon_path')
 window.title('계정비번 변경툴')
 l00 = Label(window, text="신규비번 입력 >>>", width=15, font=("맑은고딕", 12), pady=30)
 g01 = l00.grid(row=0)
